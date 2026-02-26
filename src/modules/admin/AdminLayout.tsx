@@ -16,7 +16,7 @@ export const AdminLayout = ({ children }: AdminLayoutProps) => {
   };
 
   return (
-    <div style={{ display: 'flex', minHeight: '100vh' }}>
+    <div style={{ display: 'flex', minHeight: '100vh', width:"100vw" }}>
       {/* Sidebar */}
       <aside style={{ width: '250px', background: '#1e293b', color: 'white', padding: '20px' }}>
         <h2 style={{ marginBottom: '30px' }}>Admin Panel</h2>
@@ -42,7 +42,7 @@ export const AdminLayout = ({ children }: AdminLayoutProps) => {
       </aside>
 
       {/* Main content */}
-      <div style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+      <div style={{ flex: 1, display: 'flex', flexDirection: 'column', background:"#DB3C1D" }}>
         {/* Header */}
         <header style={{ background: '#f1f5f9', padding: '15px 30px', borderBottom: '1px solid #e2e8f0' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>

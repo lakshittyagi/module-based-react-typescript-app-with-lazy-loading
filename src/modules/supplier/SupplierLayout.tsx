@@ -16,7 +16,7 @@ export const SupplierLayout = ({ children }: SupplierLayoutProps) => {
   };
 
   return (
-    <div style={{ display: 'flex', minHeight: '100vh' }}>
+    <div style={{ display: 'flex', minHeight: '100vh', width:"100vw" }}>
       {/* Sidebar */}
       <aside style={{ width: '250px', background: '#059669', color: 'white', padding: '20px' }}>
         <h2 style={{ marginBottom: '30px', fontSize: '20px', fontWeight: 'bold' }}>

@@ -38,6 +38,7 @@ export default function LoginPage() {
       justifyContent: 'center', 
       alignItems: 'center', 
       minHeight: '100vh',
+      width: '100vw',
       background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'
     }}>
       <div style={{ 

@@ -8,6 +8,7 @@ export default function NotFoundPage() {
       justifyContent: 'center', 
       alignItems: 'center', 
       minHeight: '100vh',
+      width: '100vw',
       background: '#f3f4f6'
     }}>
       <h1 style={{ fontSize: '72px', margin: 0 }}>404</h1>
